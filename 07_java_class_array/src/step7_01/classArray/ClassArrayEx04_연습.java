@@ -16,7 +16,7 @@ public class ClassArrayEx04_연습 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		User[] userList = new User[100];	
+		User[] userList = new User[100]; // 배열 100칸 만들어 주기 
 		
 		for (int i = 0; i < userList.length; i++) {
 			userList[i] = new User();
