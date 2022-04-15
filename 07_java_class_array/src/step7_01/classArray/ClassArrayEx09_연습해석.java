@@ -120,7 +120,7 @@ class Controller {
 	void sortData() { // 정렬데이터 
 		
 		for (int i = 0; i < stdCnt; i++) { 
-			for (int n = 0; n < stdCnt ; n++) { 
+			for (int n= 0; n < stdCnt ; n++) { 
 				if (list[i].id.compareTo(list[n].id) > 0) { // 아이디의 첫번째 글자들 기준으로 비교하여 나열 
 					StudentEx temp = list[i]; // 임시배열에 [i]옮기고
 					list[i] = list[n]; // [n] > [i] 자리에 옮기고 
