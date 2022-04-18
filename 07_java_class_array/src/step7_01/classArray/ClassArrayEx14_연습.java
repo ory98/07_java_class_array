@@ -76,18 +76,18 @@ class StudentManager{ // 객체 만들기
 	
 	
 	void sortData() { // 데이터 정렬 *****************
-		 
+//		 
 //		for(int i = 0; i < studentList.size(); i++) {
 //			for (int n = 0; n < studentList.size(); n++) {
 //				if (studentList.get(i).id.compareTo(studentList.get(n).id) > 0) {
-//					StudentEx temp = studentList.get(i);
-//					studentList.get(i) = studentList.get(n);
-//					studentList.get(n) = temp;
+//					StudentEx temp = StudentVO[i];
+//					StudentVO[i] = StudentVO[n];
+//					StudentVO[n] = temp;
 //			
 //				}
 //			}
 //		}
-//			
+			
 	}
 	
 	
